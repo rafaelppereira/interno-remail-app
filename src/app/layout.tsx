@@ -7,7 +7,7 @@ import { ReactNode } from "react"
 import { Toaster } from '@/components/ui/toaster'
 import { ThemeProvider } from '@/components/theme/theme-provider'
 
-export const fontSans = Plus_Jakarta_Sans({
+const fontSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
